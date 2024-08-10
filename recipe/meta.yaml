@@ -1,5 +1,5 @@
 {% set name = "django-annoying" %}
-{% set version = "0.10.6" %}
+{% set version = "0.10.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-annoying-{{ version }}.tar.gz
-  sha256: 083b5e26f140f86178fcb47931f69b7ff75181ccd1e318d9c218ae9babc1805e
+  sha256: d42a9f4757701903edcb3398c542e6d39e67856295059589296c277350d02fc0
 
 build:
   noarch: python
